@@ -33,4 +33,4 @@
 
 
  ## HOSTING
- - [ ] https://nikoade.github.io/web-project-musicHUB
+ - [ ] https://nikoade.github.io/web-project-musicHUB/index.html
