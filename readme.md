@@ -30,3 +30,7 @@
  3) - [ ] ყველა სიმღერის მოძებნა ალბომის აიდის მიხედვით : https://theaudiodb.com/api/v1/json/1/track.php?m=${albumId}
  4) - [ ] ალბომზე ინფორმაციის ამოღება ალბომის აიდის მიხედვით : https://theaudiodb.com/api/v1/json/1/album.php?m=${albumId}
  5) - [ ] სიმღერაზე ინფორმაციის ამოღება სიმღერის აიდის მიხედვით : https://theaudiodb.com/api/v1/json/1/track.php?h=${songId}
+
+
+ ## HOSTING
+ - [ ] https://nikoade.github.io/web-project-musicHUB
