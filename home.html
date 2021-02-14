@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width">
+        <meta name="author" content="Nikoloz Adeishvili">
+
+        <title>musicHub | Home</title>
+        <link rel = "stylesheet" href = "./css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class = "container">
+                    <div id = "branding">
+                        <h1>music<span class = "highlight">HUB</span></h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li class = "current"><a href = "home.html">Artists</a></li>
+                            <li><a href="albumList.html">Albums</a></li>
+                            <li><a href="songList.html">Songs</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+
+        <section id = "member">
+            <div class = "container">
+                <h1>Become a Member, ITS FREE</h1>
+                <a href="https://www.youtube.com/channel/UCTPpEGk1LO94pFlNv30rfVA" target="_blank">Subscribe</a>
+                <div class = "form">
+                    <input type = "text" id = "search-artist" placeholder="Search..." >
+                    <button onclick = "handleArtistResponse()" class = "button_1">Search</button>
+                </div>
+            </div>   
+        </section>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">Highlighted Artist :</h1>
+                <h1 class = "page-title" id = "artist-name">you haven't selected an artist</h1>
+                <p id = "artist-biography"></p>
+                <div class="dark">
+                    <p id = "album-list"></p>
+                </div>
+            </article>
+    
+            <aside id="sidebar">
+                <p id = "photo-holder"> </p>
+                <div class="dark">
+                    <h3>*AD*</h3>
+                    <p>
+                        Place for your advertisement
+                    </p>
+                </div>
+            </aside>
+    
+        </div>
+    </section>
+
+    <hr class="dashed">
+
+        <section id = "boxes">
+            <div class = "container">
+                <div class = "box">
+                    <img src="./img/images.png">
+                    <h3>Random 3 artists</h3>
+                    <p>small artist description</p>
+                </div>
+                <div class="box">
+                    <img src="./img/images.png">
+                    <h3>Random 3 artists</h3>
+                    <p>small artist description</p>
+                </div>
+                <div class="box">
+                    <img src="./img/images.png">
+                    <h3>Random 3 artists</h3>
+                    <p>small artist description</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Web Project, Copyright &copy; Saxeli Gvari</p>
+        </footer>
+    </body>
+
+    <script src="js/main.js"></script>
+
+</html>
